@@ -9,15 +9,16 @@
 
   <h2>Registration Form</h2>
 
-  <form action="/submit" method="post">
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="0d0ef5e2-238a-4cc9-be88-d355c83c8447">
     <label for="name">Name:</label><br>
     <input type="text" id="name" name="name" required><br><br>
 
     <label for="email">Email:</label><br>
     <input type="email" id="email" name="email" required><br><br>
 
-    <label for="password">Password:</label><br>
-    <input type="password" id="password" name="password" required><br><br>
+    <label for="textarea">Message:</label><br>
+    <input type="textarea" id="message" name="message" required><br><br>
 
     <input type="submit" value="Submit">
   </form>
